@@ -10,7 +10,6 @@ The project follows the standard Django project structure, with the main compone
 - **accounts**: This app handles user authentication and profile management.
 - **products**: This app manages the product database and includes views for displaying products.
 - **cart**: This app handles the shopping cart functionality.
-- **orders**: This app manages the checkout process and generates purchase receipts.
 - **admin_interface**: This app provides an admin interface for managing products.
 - **api**: This app implements the RESTful API using Django REST Framework.
 
@@ -69,10 +68,6 @@ The project includes a database of products with fields such as name, descriptio
 
 Users can add products to their shopping cart and remove them as needed. The shopping cart updates dynamically as items are added or removed. The stock status of products is also updated accordingly.
 
-## Purchases and Payment Integration
-
-The checkout process allows users to enter shipping information and payment details. The project integrates with a real payment gateway (e.g., Stripe, PayPal) to handle payments. After a successful transaction, a purchase receipt (order summary) is generated.
-
 ## Admin Interface
 
 The project includes an admin interface built using Django's built-in capabilities. The admin has the ability to add, edit, and delete products.
@@ -81,7 +76,7 @@ The project includes an admin interface built using Django's built-in capabiliti
 
 The project implements a RESTful API using Django REST Framework. The API provides endpoints to retrieve product information and place orders. All endpoints require appropriate authentication and permissions.
 
-## Bonus - User Reviews
+## User Reviews
 
 Logged-in users can review products they have purchased. These reviews are displayed on the respective product pages.
 
