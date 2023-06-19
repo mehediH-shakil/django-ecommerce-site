@@ -1,17 +1,6 @@
 # Django E-commerce Site
 
-This project is an E-commerce website built using Django, which incorporates user authentication, product management, a shopping cart, purchase and payment integration, an admin interface, and a RESTful API.
-
-## Project Structure
-
-The project follows the standard Django project structure, with the main components as follows:
-
-- **ecommerce**: This is the main Django application directory, which contains the project settings and URL configurations.
-- **accounts**: This app handles user authentication and profile management.
-- **products**: This app manages the product database and includes views for displaying products.
-- **cart**: This app handles the shopping cart functionality.
-- **admin_interface**: This app provides an admin interface for managing products.
-- **api**: This app implements the RESTful API using Django REST Framework.
+This project is an E-commerce website built using Django, which incorporates user authentication, a shopping cart, purchase and payment integration, an admin interface, and a RESTful API.
 
 ## Project Setup
 
