@@ -21,7 +21,7 @@ To run the project, follow these steps:
 1. Clone the project repository:
 
 ```
-git clone https://github.com/your-username/django-ecommerce-site.git
+https://github.com/mehediH-shakil/django-ecommerce-site.git
 ```
 
 2. Navigate to the project directory:
