@@ -78,8 +78,6 @@ Logged-in users can review products they have purchased. These reviews are displ
 A brief report is included, which explains any challenges encountered during development and how they were addressed.
 
 ## Notes
-
-- This project does not include the implementation of a payment gateway. You will need to integrate your preferred payment gateway, such as Stripe or PayPal, following their documentation and guidelines.
 - The project utilizes the `Pillow` library for image processing. Ensure that you have the required dependencies installed on your system.
 
 Please refer to the provided report for further details on the challenges faced and their resolutions.
