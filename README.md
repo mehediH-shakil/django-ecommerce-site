@@ -57,6 +57,10 @@ The project includes a database of products with fields such as name, descriptio
 
 Users can add products to their shopping cart and remove them as needed. The shopping cart updates dynamically as items are added or removed. The stock status of products is also updated accordingly.
 
+## Purchases and Payment Integration
+
+The checkout process allows users to enter shipping information and payment details. The project integrates with a real payment gateway (e.g., Stripe, PayPal) to handle payments. After a successful transaction, a purchase receipt (order summary) is generated.
+
 ## Admin Interface
 
 The project includes an admin interface built using Django's built-in capabilities. The admin has the ability to add, edit, and delete products.
