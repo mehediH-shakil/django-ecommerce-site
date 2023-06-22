@@ -1,13 +1,11 @@
 from django.contrib import admin
 from django.urls import path
 from django.contrib.auth import views as auth_views
-from paypal.standard.ipn import views as paypal_views
 from store import views as user_views
 
 from django.contrib import admin
 from django.urls import path
 from django.contrib.auth import views as auth_views
-from paypal.standard.ipn import views as paypal_views
 
 from store import views as app_views
 from authentication import views as user_views
@@ -18,7 +16,7 @@ from review import views as review_views
 
 from django.urls import include
 from rest_framework import routers
-from api.views import ProductView, CreateProduct
+from api.views import ProductView, PlaceOrders
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -49,6 +47,6 @@ urlpatterns = [
 
     path('api/', include('rest_framework.urls')),
     path('api/products/', ProductView.as_view(), name='product-list'),
-    path('api/create-product/', CreateProduct.as_view(), name='product-create'),
+    path('api/order/', PlaceOrders.as_view(), name='order'),
 
 ]
