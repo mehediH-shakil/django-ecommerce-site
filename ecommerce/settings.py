@@ -143,10 +143,10 @@ SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
 
-# stripe API credentials
+# Stripe API credentials
 
-STRIPE_PUBLISHABLE_KEY = 'pk_test_51NKwP5GRF9B0eTepyO3Z3hHKLe8OQbnwRUNEW41MQvv4m6vOg2bhbhZLy1hQTfcDZefLEWNbEeLdcBlAcFl33MbT00zH5Z87be'
-STRIPE_SECRET_KEY = 'sk_test_51NKwP5GRF9B0eTepKEkLOfL2CEvrqg5owl2UBXATbyVx4z74EQL1V3aniBHyKdgI5ygQFPPKli4ewvhnHnaUAT2R00r3kqggqD'
+STRIPE_PUBLISHABLE_KEY = ''
+STRIPE_SECRET_KEY = ''
 
 
 REST_FRAMEWORK = {
